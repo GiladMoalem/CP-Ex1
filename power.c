@@ -2,6 +2,7 @@
 #define exp 2.718281828
 
 double Pow (double x, int y){
+    if(x=0)return 0;
     double p=1;
     if (y>0){
     while (y>0){
